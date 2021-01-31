@@ -1,0 +1,20 @@
+1. "npx create-react-app ." en el folder "client"-> en la terminal 
+2. "npm start" en la conseola desde cliente (front end )
+3.todo client esta en el front end, en si el odigo habla por si solo
+
+
+//backend
+4. desde server "npm init" y creas un "package.json"
+5.npm install express body-parser mysql nodemon
+6. para correr el javascript es :  " node  index.js" con node
+7. en sscripts del package.json se añadieron 2 lineas, para correr el nodemon es "npm run devStart"
+
+///
+base de datos 
+8. para insertar datos, es muy importante la linea "app.get("/", (req, res)=>{"
+porque en el localhost se ejecutara una vez insertado el "/"
+
+
+9. desde el frond end (client se ejecuto "npm i axios) para luego importarlo en App.js
+
+10. antes de insertar los datos se instalo "npm install cors"
